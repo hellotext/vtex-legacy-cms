@@ -12,7 +12,7 @@ The Hellotext VTEX app only runs on Store Framework (VTEX IO) storefronts. VTEX 
 
 1. In the VTEX Admin, go to **Storefront > Layout > CMS > HTML Templates**.
 2. Open the subtemplate that every page includes, usually the header. If there isn't one, repeat these steps for each page template.
-3. Paste the snippet inside `<head>`.
+3. Paste the snippet inside `<head>` or right before `</body>`.
 4. Replace `YOUR_BUSINESS_ID` with your Hellotext business ID, from the Hellotext settings page.
 5. Save the template.
 
